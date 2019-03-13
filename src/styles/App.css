@@ -1,0 +1,23 @@
+* {
+  font-family: 'Nunito', sans-serif;
+  color: rgb(116, 116, 116);
+}
+
+.app-title {
+  color: var(--secondary);
+}
+
+.app-info-container {
+  display: grid;
+  grid-template-columns: 49% 2% 49%;
+}
+
+.app-hr-light {
+  border: .5px solid lightgray;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: #D8000C;
+  margin-left: 12px;
+}

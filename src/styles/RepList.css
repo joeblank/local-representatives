@@ -1,0 +1,25 @@
+.list-header {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  background: #F8F8F9;
+  padding-top: var(--padding-top);
+  padding-left: var(--padding-left);
+  padding-bottom: var(--padding-bottom);
+}
+
+.list-span-highlight {
+  color: var(--secondary);
+}
+
+.list-representative-row {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-top: var(--padding-top);
+  padding-left: var(--padding-left);
+  padding-bottom: var(--padding-bottom);
+  border-bottom: .5px solid var(--gray-highlight);
+}
+
+.list-rep-name {
+  cursor: pointer;
+}

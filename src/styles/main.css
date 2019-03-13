@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Nunito:400');
+
+:root {
+  --secondary: #5E9DF8;
+  --gray-highlight: #f2f2f2;
+  --padding-left: 8px;
+  --padding-top: 12px;
+  --padding-bottom: 12px;
+}
+
+body {
+  padding: 0px 16px; 
+}
