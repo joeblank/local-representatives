@@ -49,7 +49,7 @@ class App extends Component {
         <form onSubmit={this.handleSubmit}>
           <Dropdown list={congress} updateSelection={this.handleCongressionalSelection} />
           <Dropdown list={states} updateSelection={this.handleStateSelection} />
-          <button type='submit'>submit</button>
+          <button className='app-submit-btn' type='submit'>submit</button>
           <span className='error-message'>{errorMessage ? errorMessage : null}</span>
         </form>
         <section className='app-info-container'>

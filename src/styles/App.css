@@ -1,8 +1,3 @@
-* {
-  font-family: 'Nunito', sans-serif;
-  color: rgb(116, 116, 116);
-}
-
 .app-title {
   color: var(--secondary);
 }
@@ -20,4 +15,12 @@
 .error-message {
   color: #D8000C;
   margin-left: 12px;
+}
+
+.app-submit-btn {
+  height: 32px;
+  color: #7F7F7C;
+  border-radius: 4px;
+  font-size: 14px;
+  color: var(--secondary)
 }

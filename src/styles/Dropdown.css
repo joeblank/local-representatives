@@ -1,17 +1,8 @@
-select {
+.dropdown-select {
   padding-top: var(--padding-top);
   height: 32px;
   margin-right: 12px;
   font-size: 14px;
   color: #7F7E7C;
-  /* background-color: var(--gray-highlight); */
   border: solid 1px #7F7E7C;
-}
-
-button {
-  height: 32px;
-  color: #7F7F7C;
-  border-radius: 4px;
-  font-size: 14px;
-  color: var(--secondary)
 }

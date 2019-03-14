@@ -4,7 +4,7 @@ import './../styles/Dropdown.css';
 function Dropdown({ list, updateSelection }) {
   return (
     <>
-      <select onChange={({ target }) => updateSelection(target.value)}>
+      <select className='dropdown-select' onChange={({ target }) => updateSelection(target.value)}>
         {/* 
           I am only using the listItem as a key (prop below) value because each item
           in the list for representatives and state abbreviations is unique. None of 

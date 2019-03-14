@@ -2,7 +2,7 @@ import React from 'react';
 import './../styles/RepInfo.css';
 
 function RepInfo({ selectedRep }) {
-  const { name, district, phone, office } = selectedRep;
+  const { name, district, phone, office, state } = selectedRep;
   return (
     <section className='rep-info-container'>
       <h2>Info</h2>
@@ -14,7 +14,10 @@ function RepInfo({ selectedRep }) {
           {name ? name.split(' ')[1] : 'Last Name'}
         </span>
         <span className={!name ? 'info-details-placeholder' : null}>
-          {name ? district : 'District'}
+          {name && district ?
+            `District ${district} (${state})` :
+            name && !district ?
+              'N/A' : 'District'}
         </span>
         <span className={!name ? 'info-details-placeholder' : null}>
           {name ? phone : 'Phone'}
