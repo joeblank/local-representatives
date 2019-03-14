@@ -1,1 +1,1 @@
-export default ['Select Reps/Senators', 'Senators', 'Representatives'];
+export default ['Select Reps/Senators', 'Representatives', 'Senators'];
